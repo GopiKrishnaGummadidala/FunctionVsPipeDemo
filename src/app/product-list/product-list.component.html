@@ -1,0 +1,13 @@
+<p>Product-list component!</p>
+<table>
+    <tr>
+      <th>Name</th>
+      <th>Total (Function)</th>
+      <th>Total (Pipe)</th>
+    </tr>
+    <tr *ngFor="let product of products$ | async">
+      <td>{{ product.name }}</td>
+      <td>{{ addTax(product) }}</td>
+      <td>{{ product | addtax }}</td>
+    </tr>
+</table>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { getInterpolationArgsLength } from '@angular/compiler/src/render3/view/util';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'FunctionVsPipeDemo';
+  
 }

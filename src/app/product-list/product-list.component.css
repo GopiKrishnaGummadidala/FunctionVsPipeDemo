@@ -1,0 +1,13 @@
+table {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th {
+    height: 50px;
+}
+p {
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
